@@ -1,6 +1,8 @@
 2-D Cellular automata engine which is (somewhat) general to update rule and
 neighborhood
 
+This is not working yet.
+
 To use 2cell, define a rule function which manipulates a chunk of a NumPy array
 and initialize a new CA type with it, and then call `CA.run()`:
 ```
