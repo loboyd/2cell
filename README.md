@@ -5,7 +5,7 @@ This is not working yet.
 
 To use 2cell, define a rule function which manipulates a chunk of a NumPy array
 and initialize a new CA type with it, and then call `CA.run()`:
-```
+``` python
 def game_of_life(data):
     self = data[1, 1]
     neighbors = data[0, 0] + data[0, 1] + data[0, 2] + \

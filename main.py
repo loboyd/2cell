@@ -65,7 +65,6 @@ class CA(object):
 
 
 def game_of_life(data):
-	""""""
     self = data[1, 1]
     neighbors = data[0, 0] + data[0, 1] + data[0, 2] + \
                 data[1, 0] +              data[1, 2] + \
